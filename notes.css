@@ -1,0 +1,35 @@
+body {
+  font-family: courier;
+  color: white;
+}
+
+header {
+  background-color: #9eacc1;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+img {
+  height: 60px;
+}
+
+#notes {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#notes div {
+  height: 80px;
+  width: 500px;
+  border: 3px solid #9eacc1;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
