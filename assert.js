@@ -1,7 +1,7 @@
 var expect = function (value1) {
   return {
     toEqual: function (value2) {
-      if (value1 != value2) {
+      if (value1 !== value2) {
         throw new Error(`Test failed: expected ${value1} to equal ${value2}`)
       }
     }
