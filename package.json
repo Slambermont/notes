@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Slambermont/notes#readme",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
   }
 }
