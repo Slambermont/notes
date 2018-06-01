@@ -1,8 +1,8 @@
 function Note(text) {
   this.text = text;
-  this.shortText = _shortenText(text);
+  this.shortText = this._shortenText(text);
 }
 
-function _shortenText(text) {
-  return `${text.slice(0, 19)}...`;
+Note.prototype._shortenText = function (text) {
+  return `${text.slice(0, 20)}...`;
 }
