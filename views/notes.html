@@ -5,8 +5,11 @@
     <title>Notes</title>
 
     <script type='text/javascript' src='../we_has_logic/featureTest.js'></script>
+    <script type="text/javascript" src="../models/note.js"></script>
+    <script type="text/javascript" src="../models/noteList.js"></script>
     <script type="text/javascript" src="../models/noteRender.js"></script>
-    <script type='text/javascript' src='../spec/noteRenderSpec.js'></script>
+    <!-- <script type='text/javascript' src='../spec/features/noteRenderSpec.js'></script>
+    <script type='text/javascript' src='../spec/features/createNoteSpec.js'></script> -->
 
     <link href='../public/notes.css' type="text/css" rel='stylesheet'>
   </head>
@@ -16,9 +19,14 @@
       <img src=>
     </header>
 
-    <div id='notes'>
-
+    <form id="form">
+      <input id="noteform" type="text" name="Note">
+      <button id="submit" type="submit">Create</button>
+    </form>
+    <div id='noteContainer'>
+      <div id='notes'>
+      </div>
     </div>
 
-  </body>  
+  </body>
 </html>
