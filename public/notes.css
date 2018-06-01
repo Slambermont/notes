@@ -23,7 +23,7 @@ img {
   margin-top: 30px;
 }
 
-#notes div {
+article {
   height: 80px;
   width: 500px;
   border: 3px solid #9eacc1;
