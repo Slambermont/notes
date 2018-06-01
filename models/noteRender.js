@@ -27,5 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     noteList.createNote(text);
     replaceNoteList();
     renderNotes();
+    document.getElementById('noteform').value = '';
   });
 });
