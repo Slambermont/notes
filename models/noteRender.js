@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderNotes() {
     const notes = document.getElementById('notes');
     currentNotes.forEach((note) => {
-      const text = document.createTextNode(note.text);
+      const text = document.createTextNode(note.shortText);
       const article = document.createElement('article');
       article.appendChild(text);
       notes.appendChild(article);
